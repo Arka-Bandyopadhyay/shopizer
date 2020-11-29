@@ -1,14 +1,14 @@
-Release changes in version 2.13.0
+Tag changes in version 2.15.0
+
+Arabic translation [thanks to ialibrahim]
+Support for Oracle database *
+Support for Postgres database *
 
 
-Spring boot 2.2.6.RELEASE
-coupons - promotion codes
-product rating in listing pages
+** 	
+when running against an existing schema, please run this command
 
-
-Issues:
-Vulnerability from sec advisory
-In memory unit tests
-
+ALTER TABLE `SALESMANAGER`.`USER` 
+RENAME TO  `SALESMANAGER`.`USERS` ;
 
 
